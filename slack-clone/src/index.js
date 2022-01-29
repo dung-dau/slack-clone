@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import App from "./App";
+import styled from "styled-components"
 
 const rootElement = document.getElementById("root");
 render(
@@ -15,3 +16,8 @@ render(
   </BrowserRouter>,
   rootElement
 );
+
+const AppBody = styled.div`
+  
+`;
+
